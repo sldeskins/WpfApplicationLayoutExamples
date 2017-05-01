@@ -20,22 +20,18 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Grid Grid.Row="1">
-
-            <Border Background="BurlyWood" x:Name="brdElement">
-                <TextBlock x:Name="tbElement" Text="Row 0, Column 0" 
-                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Border>
-        </Grid>
-        <Button x:Name="button00" Content="Button" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
-        <Button x:Name="button01" Content="Button" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
-        <Button x:Name="button02" Content="Button" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
-        <Button x:Name="button10" Content="Button" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
-        <Button x:Name="button11" Content="Button" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
-        <Button x:Name="button12" Content="Button" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
-        <Button x:Name="button20" Content="Button" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
-        <Button x:Name="button21" Content="Button" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
-        <Button x:Name="button22" Content="Button" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
+        <Grid Grid.Row="1"/>
+        <Button x:Name="button00" Content="" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
+        <Button x:Name="button01" Content="" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
+        <Button x:Name="button02" Content="" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
+        <Button x:Name="button10" Content="" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
+        <Button x:Name="button11" Content="" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
+        <Button x:Name="button12" Content="" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
+        <Button x:Name="button20" Content="" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
+        <Button x:Name="button21" Content="" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
+        <Button x:Name="button22" Content="" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="button_Click" Height="28" Margin="10,10,0,16" Width="88"   />
         <Button x:Name="button" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="button_Click_1"/>
+        <Label x:Name="labelRow" Content="Row: " Grid.Column="1" HorizontalAlignment="Left" Margin="11,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelColumn" Content="Column:" Grid.Column="2" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
     </Grid>
-    </Page>
+</Page>

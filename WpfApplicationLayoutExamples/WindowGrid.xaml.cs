@@ -36,6 +36,10 @@ namespace WpfApplicationLayoutExamples
             int row = int.Parse(name.Substring(lengthBttmPrefix, 1));
             int col = int.Parse(name.Substring(lengthBttmPrefix + 1, 1));
             var thebutton = (Button)this.FindName(GRID_BOTTON_NAME_PREFIX + row + col);
+
+            labelRow.Content = "Row: " + row;
+            labelColumn.Content = "Column: " + col;
+
             thebutton.Background = Brushes.Cyan;
         }
         public void resetButtonColor()

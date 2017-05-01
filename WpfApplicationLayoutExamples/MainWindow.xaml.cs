@@ -25,7 +25,7 @@ namespace WpfApplicationLayoutExamples
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void buttonGrid_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new WindowGrid());
 
@@ -33,6 +33,15 @@ namespace WpfApplicationLayoutExamples
             //window.Source = new Uri("WindowGrid.xaml", UriKind.Relative);
             //window.Show(); 
             
+        }
+
+        private void buttonStack_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new WindowStack());
+
+            //NavigationWindow window = new NavigationWindow();
+            //window.Source = new Uri("WindowGrid.xaml", UriKind.Relative);
+            //window.Show(); 
         }
     }
 }

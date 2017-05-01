@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="button" Content="Grid Example
-                " HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="buttonGrid" Content="Grid Example" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Click="buttonGrid_Click" Margin="19,16,0,0"/>
+        <Button x:Name="buttonStack" Content="Stack Example" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Click="buttonStack_Click" Margin="19,43,0,0"/>
 
     </Grid>
 </Page>
